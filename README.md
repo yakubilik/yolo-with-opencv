@@ -1,6 +1,9 @@
 # yolo-with-opencv
 Bu reponun amacı openCV kütüphanesiyle yolo modellerini kullanmak.
 
+Kodun içerisindeki kütüphaneler:
+opencv, matplotlib, numpy.
+
 Modelinizi kullanabilmek için modelin ağırlık(.weights), config(.cfg) ve isim(.names) dosyasına ihtiyacınız var. 
 
 Main dosyası içerisindeki readNetFromDarknet() fonksiyonu içerisine kendi .weights dosyanızı ve .cfg dosyanızın ismini yazmanız gerekiyor.
