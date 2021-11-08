@@ -20,7 +20,7 @@ with open(classFile,'rt') as f:
     classNames = f.read().rstrip('\n').split('\n')
 print(classNames)
 
-img = cv2.imread('plaka.png')
+img = cv2.imread('plaka.jpg')
 
 img_width = img.shape[1]
 img_height = img.shape[0]
@@ -58,7 +58,7 @@ max_ids = cv2.dnn.NMSBoxes(boxes_list,confidences_list,0.5,0.4)
 
 
 for max_id in max_ids:
-    max_class_id=max_id [0]
+    max_class_id=max_id
     box = boxes_list[max_class_id]
 
     start_x = box[0]
