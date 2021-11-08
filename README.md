@@ -11,3 +11,7 @@ Main dosyası içerisindeki readNetFromDarknet() fonksiyonu içerisine kendi .we
 classFile = 'obj.names' satırındaki .names dosyasının ismini de kendi .names dosyanızın ismiyle değiştirmeniz gerekiyor.
 
 Son olarak cv2.imread('plaka.png') fonkiyonu içerisine de kendi fotoğrafınızı koyarak kodu çalıştırabilirsiniz.
+
+
+Plaka modeli ağırlıkları:
+https://drive.google.com/file/d/1tpI8mEozmE4PLwiuFAjkdnEXPuy86yUC/view?usp=sharing
